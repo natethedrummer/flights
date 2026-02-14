@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.flightmonitor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/nathanford/Library/CloudStorage/GoogleDrive-nathanford@gmail.com/My Drive/Mac Documents/flights/venv/bin/python3</string>
+        <string>/Users/nathanford/Library/CloudStorage/GoogleDrive-nathanford@gmail.com/My Drive/Mac Documents/flights/main.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/nathanford/Library/CloudStorage/GoogleDrive-nathanford@gmail.com/My Drive/Mac Documents/flights</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/flightmonitor.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/flightmonitor.err</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
